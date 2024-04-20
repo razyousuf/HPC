@@ -39,8 +39,11 @@ Execute the main Python script (test.py) to compare the execution times of the P
 ## Results
 Results
 The execution times of the Python and Cython implementations of the Sobel edge detection algorithm will be displayed, along with visualizations of the original and processed images. See the ouput sample below:
+i. Python Run-time
 ![Python Run-time](Images/python_run_time.png "Python Run-time")
+ii. Cython Run-time
 ![Cython Run-time](Images/cython_run_time.png "Cython Run-time")
+iii. Final Output
 ![Detected Edges](Images/Result.png "Detected Edges")
 
 
