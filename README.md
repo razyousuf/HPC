@@ -6,8 +6,9 @@ This repository contains Python and Cython implementations of the Sobel edge det
 3.	setup.py: Python script to compile the Cython code into C Extension Module.
 4.	test.py: Python script to execute and compare the Python and Cython implementations.
 5.	img4.png: Sample image for testing the edge detection algorithm.
-## Body
-Installation
+   ![Sample Image](Images/img4.png "Sample Image")
+   
+## Environment and Installation of Dependencies
 To set up the environment and install necessary dependencies:
 1. Create a new Anaconda environment:
 
@@ -20,7 +21,6 @@ To set up the environment and install necessary dependencies:
 3. Install required packages:
 
 	conda install numpy matplotlib imageio cython 
-
 
 4. Compilation
 Compile the Cython code (sobel_cycode.pyx) into C Extension Module (run the Anaconda Prompt in the same directory):
@@ -35,28 +35,12 @@ Compile the Cython code (sobel_cycode.pyx) into C Extension Module (run the Anac
 Execute the main Python script (test.py) to compare the execution times of the Python and Cython implementations:
 
 	python test.py 
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm run test
-```
 
 ## Results
 Results
 The execution times of the Python and Cython implementations of the Sobel edge detection algorithm will be displayed, along with visualizations of the original and processed images. See the ouput sample below:
+![Python Run-time](Images/python_run_time.png "Python Run-time")
+![Cython Run-time](Images/cython_run_time.png "Cython Run-time")
+![Detected Edges](Images/Result.png "Detected Edges")
 
-![](Images/Result.png)
-
-![Alt text](Images/Result.png "Optional title")
-## Usage/Examples
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
 
