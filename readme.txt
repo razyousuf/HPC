@@ -42,5 +42,6 @@ Execute the main Python script (test.py) to compare the execution times of the P
 
 Results
 The execution times of the Python and Cython implementations of the Sobel edge detection algorithm will be displayed, along with visualizations of the original and processed images. See the ouput sample below:
-![Result](images/Result.png)
+
+![Result](Images/Result.png)
 
