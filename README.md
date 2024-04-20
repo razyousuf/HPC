@@ -15,9 +15,9 @@ To set up the environment and install necessary dependencies:
 	conda create -n image_processing_env python=3.
  ```
 2. Activate the environment:
-	```bash
+```bash
 	conda activate image_processing_env 
-	```
+```
 3. Install required packages:
 ```bash
 	conda install numpy matplotlib imageio cython 
