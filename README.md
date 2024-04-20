@@ -11,31 +11,31 @@ This repository contains Python and Cython implementations of the Sobel edge det
 ## Environment and Installation of Dependencies
 To set up the environment and install necessary dependencies:
 1. Create a new Anaconda environment:
-
+```bash
 	conda create -n image_processing_env python=3.
- 
+ ```
 2. Activate the environment:
 	```bash
 	conda activate image_processing_env 
 	```
 3. Install required packages:
-
+```bash
 	conda install numpy matplotlib imageio cython 
-
+```
 4. Compilation
 Compile the Cython code (sobel_cycode.pyx) into C Extension Module (run the Anaconda Prompt in the same directory):
-
+```bash
 	python setup.py build_ext --inplace 
-
+```
 5. Generate HTML annotations for the Cython code
-
+```bash
 	cython -a sobel_cycode.pyx
-
+```
 6. Execution
 Execute the main Python script (test.py) to compare the execution times of the Python and Cython implementations:
-
+```bash
 	python test.py 
-
+```
 ## Results
 Results
 The execution times of the Python and Cython implementations of the Sobel edge detection algorithm will be displayed, along with visualizations of the original and processed images. See the ouput sample below:
