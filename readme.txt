@@ -45,3 +45,4 @@ The execution times of the Python and Cython implementations of the Sobel edge d
 
 ![](Images/Result.png)
 
+![Alt text](Images/Result.png "Optional title")
