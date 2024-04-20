@@ -1,4 +1,4 @@
-			Sobel Edge Detection in Python and Cython
+			Comparison of Python and Cython Performance in Sobel-based Edge Detection Tasks
 
 This repository contains Python and Cython implementations of the Sobel edge detection algorithm for image processing. The codes and files provided are:
 1.	sobel_pycode.py: Python implementation of the Sobel edge detection algorithm using NumPy.
