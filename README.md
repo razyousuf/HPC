@@ -47,6 +47,7 @@ ii. Cython Run-time
 ![Cython Run-time](Images/cython_run_time.png "Cython Run-time")
 
 iii. Final Output
+
 ![Detected Edges](Images/Result.png "Detected Edges")
 
 
